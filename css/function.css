@@ -1,0 +1,379 @@
+.introduction h2.companyTitle,
+.newTitle {
+    color: #1A7BBF;
+}
+
+div.imgBox {
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+div.imgBox div h3 {
+    font-weight: bolder;
+}
+
+.imgBox .imgBoxShadow {
+    position: relative;
+    top: -8em;
+}
+
+.imgBox .imgBoxShadow>h5,
+.imgBox .imgBoxShadow>h4 {
+    color: white;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+/* Company websit */
+.culture {
+    background: rgb(105, 165, 227)
+}
+
+img.introductionImg,
+.culture>img.companyCulture,
+.cloud_logo>img,
+.investment>.row>.contact,
+.wrapper{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.company_introduction>.box {
+    margin-bottom: 5%;
+    position: relative;
+    top: -8em;
+}
+
+.contect,
+.company.wrapper,
+.history {
+    width: 70%;
+    margin-left: 15%;
+    font-size: 16px;
+}
+
+.company.wrapper {
+    background-image: linear-gradient(-185deg, #3390DE 40%, white 40.5%);
+}
+
+.introduction.text {
+    /* color: #3390DE; */
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 2em;
+    margin-bottom: 3%;
+}
+
+.history {
+    color: white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/description/company/history.jpg);
+}
+
+.historyInfo {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.contect {
+    font-size: 16px;
+    font-weight: bolder;
+    background-image: linear-gradient(-185deg, #3390DE 70%, white 70.5%);
+}
+
+.contect>div.white {
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.contect>.address_icon{
+    padding: 5%;
+}
+
+.address.contect_text {
+    margin-bottom: 3%;
+    /* color: #3390DE; */
+}
+
+
+/* hotel */
+.wrapper>div>h3.cooperationTitle {
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+ul.cooperationHotel>li.hotelList {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    min-height: 160px;
+    border-radius: 10px;
+    color: white;
+    /* background-color: white; */
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    /* box-shadow: 0 1px 3px #333333; */
+}
+
+.hotelImgBox>img {
+    border-radius: 10px;
+    margin-left: -20%;
+    margin-top: -10%;
+    /* box-shadow: 5px 5px 5px #accbee; */
+}
+
+.cooperation_hotel{
+    background-color: #efefef;
+}
+.cooperation_hotel>.container{
+    padding-bottom: 6%;
+    position: relative;
+    top: -5em;
+    color: #e6b980;
+    background-color: white;
+}
+.hotelWrapper > .hotelList > img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.hotelTextBox>* {
+    margin-top: 5%;
+    margin-right: 10%;
+    line-height: 2em;
+}
+
+.hotelTextBox>.time {
+    color: #eeeeee;
+}
+
+/* news */
+.inforBox {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    padding: 0 5%;
+    border-radius: 20px;
+    color: white;
+    /* background-color: white; */
+    /* background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%); */
+    background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+    box-shadow: 0 5px 5px #999999;
+}
+
+.inforImg {
+    width: 40%;
+    display: block;
+    border-radius: 20px;
+    margin-top: -13%;
+    margin-bottom: 3%;
+    /* box-shadow: 0 5px 5px #accbee; */
+    overflow: hidden;
+}
+
+.inforTime {
+    color: #eeeeee;
+}
+
+/* investment */
+div.cooperation>.investmentImgBox {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
+.investmentImgBox>img.investmentImg,
+.selecter>* {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.investmentImgBox>img.jewelry {
+    position: relative;
+    top: -1em;
+    z-index: -1;
+}
+
+.advantage.about {
+    color: white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../images/investment/investment_advantage_box.jpg);
+}
+
+.grid_block {
+    min-height: 100px;
+    /* border: 1px solid white; */
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+.grid_block :first-child {
+    margin-top: 5%;
+}
+
+.grid_block>img {
+    margin-bottom: 10%;
+    max-height: 100px;
+}
+
+.contact {
+    margin-top: 3%;
+    color: #517fa4;
+    font-size: 20px;
+    line-height: 2em;
+
+}
+
+.contact>span {
+    margin-right: 5%;
+}
+
+
+.jumbotron>.cooperation {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+}
+
+/* about */
+.aboutWrapper {
+    background-color: #eeeeee;
+}
+
+.contectBox {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #dfe9f3 0%, white 100%);
+    box-shadow: 0px 1px 3px #989898;
+}
+
+.contectBox_deflute {
+    margin-bottom: 5%;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 1px 3px #989898;
+}
+
+.contectListL {
+    background-image: linear-gradient(-225deg, #a3bded 0%, #6991c7 100%);
+}
+
+.contectListC {
+    background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+}
+
+.contectListR {
+    background-image: linear-gradient(-225deg, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+}
+
+.contectBox>span,
+.contectBox>h3 {
+    margin-left: 5%;
+    font-size: 16px;
+    line-height: 3em;
+}
+
+.contectBox_deflute>span {
+    /* display: none; */
+    margin-left: 28%;
+    font-size: 14px;
+    line-height: 3em;
+}
+
+.joinUs>.job {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 210px 0 20px;
+    min-height: 180px;
+    border-radius: 20px;
+    color: white;
+    /* background-color: white; */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center 60%;
+    background-image: url(../images/description/about/jobBanner.png);
+}
+
+.jobsWrapper>li.jobsCard {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 8% 0 2%;
+    color: white;
+    line-height: 3em;
+    border-radius: 20px;
+}
+
+.jobsCard.art {
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+
+.jobsCard.marketing {
+    background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+}
+
+.jobsCard.commissional {
+    background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+}
+
+.jobsWrapper>li.jobsCard>.name {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.jobsWrapper>li.jobsCard>.value {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.jobsWrapper>li.jobsCard>div.icon>img {
+    position: relative;
+    top: -50px;
+}
+
+
+
+@media (max-width:1024px) {
+
+    .introduction h2.companyTitle,
+    .newTitle,
+    .hotelTitle,
+    .cbTitle {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+
+    .introduction>h5 {
+        display: none;
+    }
+
+    div.imgBox>div>.imgBoxShadow>h4 {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    /* news */
+    .inforImg {
+        width: 80%;
+    }
+
+    .company {
+        background-image: linear-gradient(-185deg, #3390DE 20%, white 20.5%);
+    }
+
+    .introduction.text {
+        font-size: 12px;
+        margin-bottom: 10%;
+    }
+
+    .contect {
+        background-image: linear-gradient(-185deg, #3390DE 80%, white 80.5%);
+    }
+    .cooperation_hotel>.container{
+        top: 0;
+    }
+}

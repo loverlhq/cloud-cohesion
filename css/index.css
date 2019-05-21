@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* body{
+	position: relative;
+} */
+
+
+/* NavBar start */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a.active{
+	color:#1A7BBF;
+}
+
+.navBar{
+    width: 1330px;
+	height: 80px;
+	position: relative;
+	left: 286px;
+}
+
+.navBar::after{
+    clear: both;
+}
+
+.navBar li{
+    width: 20%;
+    float: left;
+    /* margin-right: 100px; */
+	text-align: center;
+    font-size: 20px;
+    line-height: 80px;
+	cursor: pointer;
+}
+
+.navBar li img{
+	margin-top: 30px;
+	height: 50px;
+}
+
+.navBar li div{
+	position: relative;
+	left: 133px;
+	bottom: 10px;
+	width: 0;
+	height: 4px;
+	border-radius: 2px;
+	background-color: #1A7BBF;
+}
+
+.navBar li .underLine{
+	animation: navUnderLine 0.3s ease-out ;
+	animation-fill-mode: forwards;
+}
+/* NavBar end */
+
+
+/* banner start */
+.banner{
+	width: 1600px;
+	height: 625px;
+    overflow: hidden;
+	position: relative;
+	border-radius: 25px;
+    top: 0;
+	left: 160px;
+}
+
+.wrapperBox{
+	width: 9000px;
+	/* height: 460px; */
+	position: relative;
+	/* display: none; */
+}
+
+.wrapperBox li{
+	width: 1600px;
+	height: 100%;
+	float: left;
+	
+	/* display: none; */
+}
+
+.wrapperBox li img{
+	width: 100%;
+	height: 100%;
+	/* border-radius: 25px; */
+	/* max-width: 100%;
+	max-height: 100%; */
+	
+}
+
+.glyphicon{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	/* background-color: #94cfff; */
+	border-radius: 50%;
+	position: absolute;
+	top: 360px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 58px;
+	color: #94cfff;
+	cursor: pointer;
+}
+
+.glyphicon-chevron-left{
+	left: 50px;
+}
+.glyphicon-chevron-right{
+	left: 1810px;	
+}
+
+
+.SliderIndex{
+	position: absolute;
+	left: 820px;
+	top: 650px;
+	width: 760px;
+	height: 14px;
+	/* z-index: -999; */
+}
+
+.SliderIndex span{
+	display: inline-block;
+	margin-right: 10%;
+	width: 14px;
+	height: 100%;
+	border-radius: 50%;
+	background-color: rgba(91, 148, 255, 0.3);
+	cursor: pointer;
+}
+
+.SliderIndex .active{
+	background-color: #94cfff;
+}
+
+/* banner end */
+
+/* Introduction start */
+.introduction{
+	position: relative;
+}
+
+.introduction .title{
+	/* font-size: 32px; */
+	color: #1A7BBF;
+	text-align: center;
+	margin-top: 5%;
+	width: 1920px;
+}
+
+.imgBox .imgTitle{
+	font-size: 24px;
+}
+
+/* Introduction end */

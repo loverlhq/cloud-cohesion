@@ -1,0 +1,67 @@
+.newsWrapper > li{
+    margin-top: 5%;
+}
+
+.newsWrapper > li > .listImg > img{
+    border-radius: 6%;
+}
+
+.listTextBox{
+    margin-top: 120px;
+}
+
+.listTextBox > span{
+    line-height: 3em;
+    font-weight: bolder;
+}
+
+.listTextBox > .newsListTime{
+    font-size: 18px;
+}
+
+.newsLearnMore {
+    position: absolute;
+    right: 10%;
+}
+
+/* hotol */
+.hotelRow > img{
+    margin-left: 10%;
+}
+.hotelList > img{
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 20px #333333;
+}
+
+.hotelTips{
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+.hotelLearnMore{
+    /* font-size: 16px; */
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+/* cooperationBrand */
+.cbTitle{
+    color: white;
+    line-height: 3em;
+}
+.brandImg{
+    margin-bottom: 50px;
+}
+
+@media (max-width:1024px){
+    .listTextBox{
+        margin-top: 15px;
+    }
+    .newsLearnMore{
+        top: 3%;
+    }
+    .hotelList > img{
+        margin-left:16%;
+    }
+}
