@@ -7,6 +7,11 @@
     padding: 0;
 }
 
+a,
+a:hover{
+    color: white;
+}
+
 .container-fluid,
 ul {
     padding: 0;
@@ -54,7 +59,13 @@ ul li {
 
 .project {
     color: white;
-    background-image: linear-gradient(135deg, #3390DE 0%, #DC5749 100%);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    /* background-image: linear-gradient(135deg, #3390DE 0%, #DC5749 100%); */
+    background-image: url(../images/support/technology_chip.jpg)
 }
 .hotel{
     color: white;
@@ -77,7 +88,7 @@ ul li {
 .system_text {
     min-height: 240px;
     padding: 20% 13%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .support_box{
     line-height: 2em;
@@ -103,11 +114,12 @@ ul li {
     min-height: 240px;
     position: relative;
     color: white;
-    text-shadow: 3px 3px 2px #444444
+    border-radius: 0px !important;
+    /* text-shadow: 3px 3px 2px #444444 */
 }
-.slogan{
-    font-size: 50px !important;
-}
+/* .slogan{
+    color: #FFB487 !important;
+} */
 .company_name > small{
     color: white;
     text-shadow: none;
@@ -174,7 +186,15 @@ ul li {
 }
 
 
-
+.middle {
+ 
+    float: none;
+  
+    display: inline-block;
+  
+    vertical-align: middle;
+  
+ }
 
 @media (max-width:1024px) {
     .navbar {

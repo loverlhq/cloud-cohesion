@@ -33,27 +33,25 @@ img.introductionImg,
 .culture>img.companyCulture,
 .cloud_logo>img,
 .investment>.row>.contact,
-.wrapper{
+.wrapper,
+.cooperationBrand>.brandImg{
     margin-top: 8%;
     margin-bottom: 5%;
 }
 
 .company_introduction>.box {
-    margin-bottom: 5%;
-    position: relative;
-    top: -8em;
 }
 
 .contect,
-.company.wrapper,
+.company.box,
 .history {
     width: 70%;
     margin-left: 15%;
     font-size: 16px;
 }
 
-.company.wrapper {
-    background-image: linear-gradient(-185deg, #3390DE 40%, white 40.5%);
+.company.box {
+    background-image: linear-gradient(-185deg, #0CD4E8 40%, white 40.5%);
 }
 
 .introduction.text {
@@ -81,7 +79,7 @@ img.introductionImg,
 .contect {
     font-size: 16px;
     font-weight: bolder;
-    background-image: linear-gradient(-185deg, #3390DE 70%, white 70.5%);
+    background-image: linear-gradient(-185deg, #0CD4E8 70%, white 70.5%);
 }
 
 .contect>div.white {
@@ -136,8 +134,9 @@ ul.cooperationHotel>li.hotelList {
 .hotelWrapper > .hotelList > img{
     margin-top: 5%;
     margin-bottom: 5%;
-    max-height: 200px;
-    max-width: 200px;
+    padding: 5%;
+    /* max-height: 200px;
+    max-width: 200px; */
 }
 
 .hotelTextBox>* {
@@ -183,7 +182,8 @@ div.cooperation>.investmentImgBox {
 }
 
 .investmentImgBox>img.investmentImg,
-.selecter>* {
+.selecter>* ,
+.company_introduction>.box{
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -238,7 +238,7 @@ div.cooperation>.investmentImgBox {
 
 /* about */
 .aboutWrapper {
-    background-color: #eeeeee;
+    background-color: black;
 }
 
 .contectBox {
@@ -282,41 +282,61 @@ div.cooperation>.investmentImgBox {
     line-height: 3em;
 }
 
-.joinUs>.job {
+/* .joinUs>.job {
     margin-top: 10%;
     margin-bottom: 10%;
     padding: 210px 0 20px;
     min-height: 180px;
     border-radius: 20px;
     color: white;
-    /* background-color: white; */
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-position: center 60%;
     background-image: url(../images/description/about/jobBanner.png);
-}
+} */
 
+.jobsWrapper{
+    margin-bottom: 10%;
+}
 .jobsWrapper>li.jobsCard {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding: 8% 0 2%;
+    padding-top: 10%;
+    padding-bottom: 4%;
     color: white;
     line-height: 3em;
-    border-radius: 20px;
 }
 
+.jobsCard{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 .jobsCard.art {
-    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+    /* background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%); */
+    background-image: url(../images/description/about/artist.jpg);
 }
 
-.jobsCard.marketing {
-    background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+.jobsCard.operator {
+    /* background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%); */
+    background-image: url(../images/description/about/operator.jpg);
 }
 
-.jobsCard.commissional {
-    background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+.jobsCard.investment {
+    /* background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%); */
+    background-image: url(../images/description/about/investment.jpg);
+}
+.jobsCard.business {
+    /* background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%); */
+    background-image: url(../images/description/about/business.jpg);
+}
+.jobsCard.salesManage {
+    /* background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%); */
+    background-image: url(../images/description/about/salesManage.jpg);
+}
+.jobsCard.cloud_logo{
+    background-image: url(../images/description/about/cloud.jpg)
 }
 
 .jobsWrapper>li.jobsCard>.name {
@@ -340,8 +360,7 @@ div.cooperation>.investmentImgBox {
 
     .introduction h2.companyTitle,
     .newTitle,
-    .hotelTitle,
-    .cbTitle {
+    .hotelTitle{
         font-size: 22px;
         font-weight: bolder;
     }
@@ -362,18 +381,26 @@ div.cooperation>.investmentImgBox {
     }
 
     .company {
-        background-image: linear-gradient(-185deg, #3390DE 20%, white 20.5%);
+        background-image: linear-gradient(-185deg, #0CD4E8 20%, white 20.5%);
     }
 
     .introduction.text {
         font-size: 12px;
         margin-bottom: 10%;
     }
-
+    /* .hotelWrapper > .hotelList > img{
+        max-width: none;
+        max-height: none;
+    } */
     .contect {
-        background-image: linear-gradient(-185deg, #3390DE 80%, white 80.5%);
+        font-size: 12px;
+        background-image: linear-gradient(-185deg, #0CD4E8 80%, white 80.5%);
     }
     .cooperation_hotel>.container{
         top: 0;
+    }
+    .contact{
+        font-size: 16px;
+        text-align: center;
     }
 }
