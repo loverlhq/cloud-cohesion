@@ -51,7 +51,7 @@ ul li {
     background-color: #efefef;
 }
 
-.project,
+
 .hotel {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -77,7 +77,7 @@ ul li {
     background-image: url(../images/introduction/advantage.jpg);
 }
 .advantage.title{
-    margin-bottom: 10%;
+    margin-top: 35%;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -85,10 +85,16 @@ ul li {
     margin-bottom: 5%;
 }
 
-.system_text {
-    min-height: 240px;
-    padding: 20% 13%;
+.system_text{
+    margin-top: 15%;
+}
+.system.box{
     background-color: rgba(0, 0, 0, 0.5);
+}
+.system_text,
+.system.box>.phoneImg {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .support_box{
     line-height: 2em;
@@ -137,6 +143,7 @@ ul li {
 }
 
 .cooperation.jumbotron {
+    color: red;
     background-image: url(../images/introduction/cooperationJumbo.jpg);
     background-position: center 36%;
 }
@@ -225,5 +232,11 @@ ul li {
     }
     .support_logo{
         height: 128px;
+    }
+    .system_text>h1{
+        font-size: 30px;
+    }
+    .system_text>h2{
+        font-size: 26px;
     }
 }
