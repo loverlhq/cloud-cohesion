@@ -86,7 +86,10 @@ ul li {
 }
 
 .system_text{
-    margin-top: 15%;
+    margin-top: 10%;
+}
+.system_text>h1{
+    font-size: 66px;
 }
 .system.box{
     background-color: rgba(0, 0, 0, 0.5);
