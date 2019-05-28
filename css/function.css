@@ -153,33 +153,6 @@ ul.cooperationHotel>li.hotelList {
     font-size: 26px;
 }
 
-/* news */
-.inforBox {
-    margin-top: 10%;
-    margin-bottom: 3%;
-    padding: 0 5%;
-    border-radius: 20px;
-    color: white;
-    /* background-color: white; */
-    /* background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%); */
-    background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
-    box-shadow: 0 5px 5px #999999;
-}
-
-.inforImg {
-    width: 40%;
-    display: block;
-    border-radius: 20px;
-    margin-top: -13%;
-    margin-bottom: 3%;
-    /* box-shadow: 0 5px 5px #accbee; */
-    overflow: hidden;
-}
-
-.inforTime {
-    color: #eeeeee;
-}
-
 /* investment */
 div.cooperation>.investmentImgBox {
     background-image: linear-gradient(to right, #868f96 0%, #596164 100%);

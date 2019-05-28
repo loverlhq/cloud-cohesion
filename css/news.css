@@ -45,6 +45,39 @@
     line-height: 2em;
 }
 
+/* news */
+.inforBox {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: left;
+    line-height: 1.5em;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+.inforImg {
+    width: 40%;
+    display: block;
+}
+
+.boxTitle{
+    /* color: black; */
+    line-height: 1.5em;
+}
+.inforTime {
+    line-height: 1.5em;
+    color: #aaaaaa;
+}
+
+.boxShadow{
+    box-shadow: 3px 3px 3px #aaaaaa;
+}
+.clearBothPad{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* cooperationBrand */
 .cbTitle{
     color: white;
