@@ -1,3 +1,13 @@
+*{
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
 .container-fluid>.navbar-collapse,
 .container-fluid>.navbar-header,
 .container>.navbar-collapse,
@@ -106,6 +116,10 @@ ul li {
     line-height: 2em;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cooperationBrand{
+    padding-top: 3%;
 }
 
 
