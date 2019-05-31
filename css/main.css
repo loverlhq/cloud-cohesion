@@ -141,6 +141,7 @@ ul li {
     position: relative;
     color: white;
     border-radius: 0px !important;
+    background-position: center center;
     /* text-shadow: 3px 3px 2px #444444 */
 }
 /* .slogan{
@@ -154,12 +155,14 @@ ul li {
 /* select Jumbotron image*/
 .home.jumbotron{
     background-image: url(../images/introduction/homeJumbo.jpg);
-    background-position: center center;
+}
+
+.product.jumbotron{
+    background-image: url(../images/introduction/productJumbo.jpg);
 }
 
 .company.jumbotron {
     background-image: url(../images/introduction/companyJumbo.jpg);
-    background-position: center center;
 }
 
 .cooperation.jumbotron {
@@ -180,7 +183,6 @@ ul li {
 
 .about.jumbotron {
     background-image: url(../images/introduction/aboutJumbo.jpg);
-    background-position: center center;
 }
 
 .logo{
