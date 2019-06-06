@@ -21,6 +21,10 @@
 //                      佛祖保佑       永无BUG
 //
 
+// page init config
+$(".tabbar").load("tabbar.html");
+$(".footer").load("footer.html");
+
 
 $('ul .inforBox').hover(
     function () {

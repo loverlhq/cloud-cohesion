@@ -74,17 +74,16 @@ ul li {
     background-size: cover;
     background-position: center bottom;
     text-align: center;
-    /* background-image: linear-gradient(135deg, #3390DE 0%, #DC5749 100%); */
-    background-image: url(../images/support/technology_chip.jpg)
+    background-image: url(../images/description/home/technology_chip.jpg)
 }
 .hotel{
     color: white;
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center center;
     text-align: center;
-    background-image: url(../images/introduction/advantage.jpg);
+    background-image: url(../images/description/home/description.png);
 }
 .advantage.title{
     margin-top: 35%;
@@ -214,7 +213,6 @@ ul li {
     height: 158px;
 }
 
-
 .middle {
  
     float: none;
@@ -224,6 +222,11 @@ ul li {
     vertical-align: middle;
   
  }
+
+ .clearBothPad{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 @media (max-width:1024px) {
     .navbar {
@@ -260,5 +263,9 @@ ul li {
     }
     .system_text>h2{
         font-size: 26px;
+    }
+
+    .desmedia{
+        content: url("../images/description/home/media.png");
     }
 }
