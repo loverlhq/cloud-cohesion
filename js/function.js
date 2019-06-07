@@ -34,3 +34,24 @@ $('ul .inforBox').hover(
         $(this).removeClass("boxShadow");
     }
 )
+
+window.onload = function() {
+    $(".animateFadeIn>img").fadeIn(500);
+};
+
+//select model
+$(".unline").on("click",function(e){
+    // console.log("runing");
+    var sid = '';
+    if($(this).hasClass('RQ900')){
+        sid = 'RQ900';
+        $('#RQ900').fadeIn().siblings().fadeOut();
+    }else if($(this).hasClass('RQ650')){
+        sid = 'RQ650';
+        $('#RQ650').fadeIn().siblings().fadeOut();
+    }else if($(this).hasClass('mitsubishi')){
+        sid = 'mitsubishi';
+        $('#mitsubishi').fadeIn().siblings().fadeOut();
+    }
+    
+})

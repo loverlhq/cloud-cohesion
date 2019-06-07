@@ -228,6 +228,23 @@ ul li {
     padding-right: 0;
 }
 
+/* change img url */
+.process>.white.box>img{
+    content: url("../images/description/investment/PC1.jpg")
+}
+.process>.system.box>img{
+    content: url("../images/description/investment/PCsystem.jpg")
+}
+.process>.white.box>.whiteMarket_mobile{
+    content: url("#")
+}
+.process>.eight.box>img{
+    content: url("../images/description/investment/PCeight.jpg")
+}
+.process>.eight.box>.eight_mobile{
+    content: url("#")
+}
+
 @media (max-width:1024px) {
     .navbar {
         max-height: 30px;
@@ -265,7 +282,23 @@ ul li {
         font-size: 26px;
     }
 
+    /* change img url */
     .desmedia{
         content: url("../images/description/home/media.png");
+    }
+    .process>.white.box>img{
+        content: url("../images/description/investment/Mobile1_1.jpg")
+    }
+    .process>.white.box>.whiteMarket_mobile{
+        content: url("../images/description/investment/Mobile1_2.jpg")
+    }
+    .process>.system.box>img{
+        content: url("../images/description/investment/MobileSystem.jpg")
+    }
+    .process>.eight.box>img{
+        content: url("../images/description/investment/MobileEight_1.jpg")
+    }
+    .process>.eight.box>.eight_mobile{
+        content: url("../images/description/investment/MobileEight_2.jpg")
     }
 }
