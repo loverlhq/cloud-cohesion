@@ -345,6 +345,12 @@ div.cooperation>.investmentImgBox {
 
 
 @media (max-width:1024px) {
+    h2{
+        font-size: 28px;
+    }
+    .showNum{
+        font-size: 14px;
+    }
 
     .introduction h2.companyTitle,
     .newTitle,
