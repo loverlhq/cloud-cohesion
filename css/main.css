@@ -135,6 +135,7 @@ ul li {
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'pmzdcushuti';
     text-align: center;
     min-height: 240px;
     position: relative;
@@ -144,6 +145,7 @@ ul li {
     /* text-shadow: 3px 3px 2px #444444 */
 }
 /* .slogan{
+    font-family: 'pmzdcushuti';
     color: #FFB487 !important;
 } */
 .company_name > small{
@@ -228,6 +230,11 @@ ul li {
     padding-right: 0;
 }
 
+@font-face{
+    font-family: 'pmzdcushuti';
+    src: url('../font/庞门正道粗书体.ttf');
+}
+
 /* change img url */
 .process>.white.box>img{
     content: url("../images/description/investment/PC1.jpg")
@@ -260,6 +267,7 @@ ul li {
     }
 
     .slogan{
+        /* font-family: 'pmzdcushuti'; */
         font-size: 36px ;
     }
 
