@@ -42,7 +42,7 @@
 
     <div class="description container-fulid boxShadow">
         <ul class="container clearBothPad">
-            <li id="RQ900" class="productInfor row">
+            <li id="RQ-900" class="productInfor row">
                 <div class="productImg col-md-4 clearBothPad animateFadeIn">
                     <img src="./images/description/product/RQ900/RQ900.png" alt="" class="img-responsive">
                 </div>
@@ -130,7 +130,7 @@
                     </ul>
                 </div>
             </li>
-            <li id="RQ650" class="productInfor row">
+            <li id="RQ-650" class="productInfor row">
                 <div class="productImg col-md-4 clearBothPad animateFadeIn">
                     <img src="./images/description/product/RQ650/RQ650.png" alt="" class="img-responsive">
                 </div>
@@ -350,6 +350,12 @@
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
     </script>
     <script src="./js/function.js"></script>
+    <script>
+        (function () {
+            var id = window.location.href.split("?")[1].split("=")[1];
+            checkTarget(id);
+        })();
+    </script>
 </body>
 
 </html>

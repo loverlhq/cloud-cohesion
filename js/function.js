@@ -51,17 +51,15 @@ $('ul .inforBox').hover(
 
 //select model
 $(".unline").on("click", function (e) {
-    // console.log("runing");
-    var sid = '';
     if ($(this).hasClass('RQ900')) {
-        sid = 'RQ900';
-        $('#RQ900').fadeIn().siblings().fadeOut();
+        $('#RQ-900').fadeIn().siblings().fadeOut();
+        // console.log(this);
     } else if ($(this).hasClass('RQ650')) {
-        sid = 'RQ650';
-        $('#RQ650').fadeIn().siblings().fadeOut();
+        $('#RQ-650').fadeIn().siblings().fadeOut();
+        // console.log(this);
     } else if ($(this).hasClass('mitsubishi')) {
-        sid = 'mitsubishi';
         $('#mitsubishi').fadeIn().siblings().fadeOut();
+        // console.log(this);
     }
 })
 
@@ -75,3 +73,8 @@ $(document).scroll(function () {
         $(".toTopBtn").fadeOut(100);
     }
 })
+
+// 判断点击显示哪个标签页
+function checkTarget(target){
+    $("#"+target).fadeIn().siblings().fadeOut();
+}

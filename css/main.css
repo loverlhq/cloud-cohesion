@@ -135,7 +135,7 @@ ul li {
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'pmzdcushuti';
+    /* font-family: 'pmzdcushuti'; */
     text-align: center;
     min-height: 240px;
     position: relative;
@@ -230,10 +230,10 @@ ul li {
     padding-right: 0;
 }
 
-@font-face{
+/* @font-face{
     font-family: 'pmzdcushuti';
     src: url('../font/庞门正道粗书体.ttf');
-}
+} */
 
 /* change img url */
 .process>.white.box>img{

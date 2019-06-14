@@ -5,6 +5,9 @@
 .product>ul{
     margin-bottom: 0;
 }
+#RQ-900,#RQ-650{
+    display: none;
+}
 .unline::after{
     content: "";
     display: block;
