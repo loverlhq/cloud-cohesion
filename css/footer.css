@@ -1,16 +1,27 @@
 .footerBackground{
-    background:linear-gradient(-45deg,#484b4b 0%,#303030 100%);
+    /* background:linear-gradient(-45deg,#484b4b 0%,#303030 100%); */
+    background-color: #EEEEEE;
 }
 
 .footer{    
-    color:white;
-    font-size: 16px;
-    line-height: 3rem;
+    /* color:white; */
+    font-size: 14px;
+    line-height: 2rem;
     margin: 0;
 }
 
+.footer > div > *{
+    margin-top: 5%;
+}
+
+.footerNav > li{
+    /* width: 20%; */
+    float: left;
+    margin-left: 3%;
+}
+
 .footerLogo,.footerInfor,.copyRight{
-    margin-top: 1rem;
+    margin-top: 1em;
 }
 
 .footer-box > .glyphicon{
