@@ -11,14 +11,28 @@
 }
 
 .footer > div > *{
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
-.footerNav > li{
+.footerNav.head > li{
     /* width: 20%; */
     float: left;
-    margin-left: 3%;
+    margin-left: 6%;
+    font-weight: bold;
 }
+.footerNav > li > *{
+    color: #191A1A;
+}
+.footerNav.second > li{
+    margin-top: 5%;
+    font-weight: initial;
+}
+
+.footerLogo{
+    padding-top: 2.5%;
+}
+
+
 
 .footerLogo,.footerInfor,.copyRight{
     margin-top: 1em;
@@ -41,5 +55,9 @@
 @media (max-width:1024px){
     .footerInfor > .address{
         font-size: 14px;
+    }
+
+    .qrcode{
+        display: none;
     }
 }
