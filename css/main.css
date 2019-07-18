@@ -144,10 +144,19 @@ ul li {
     background-position: center center;
     /* text-shadow: 3px 3px 2px #444444 */
 }
-/* .slogan{
-    font-family: 'pmzdcushuti';
-    color: #FFB487 !important;
-} */
+.slogan{
+    font-weight: bold;
+}
+h1.slogan,
+.description{
+    color: #010101;
+}
+.colorTitle{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #5EAFD2;
+}
+
 .company_name > small{
     color: white;
     text-shadow: none;
@@ -155,7 +164,7 @@ ul li {
 
 /* select Jumbotron image*/
 .home.jumbotron{
-    background-image: url(../images/introduction/homeJumbo.jpg);
+    background-image: url(../images/introduction/homeJumbo.png);
 }
 
 .product.jumbotron{
@@ -268,7 +277,7 @@ ul li {
 
     .slogan{
         /* font-family: 'pmzdcushuti'; */
-        font-size: 36px ;
+        font-size: 30px ;
     }
 
     .imgBox>div>img {
