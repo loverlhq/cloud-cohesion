@@ -18,6 +18,12 @@
     box-shadow: 0 0 5px #aaaaaa;
 }
 
+.overHidden{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 /* index css */
 .introduction h2.companyTitle,
 .newTitle {
@@ -102,8 +108,7 @@ div.imgBox div h3 {
     margin-top: 10%;
     margin-bottom: 10%;
 }
-.contect>.address_icon,
-.project>.video {
+.contect>.address_icon {
     padding: 5%;
 }
 

@@ -74,7 +74,7 @@ ul li {
     background-size: cover;
     background-position: center bottom;
     text-align: center;
-    background-image: url(../images/description/home/technology_chip.jpg)
+    /* background-image: url(../images/description/home/technology_chip.jpg) */
 }
 .hotel{
     color: white;
