@@ -203,6 +203,12 @@ h1.slogan,
 .newsList{
     height: 360px;
 }
+.contectText{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+    overflow: hidden;
+}
 .newsImg{
     height: 360px;
     overflow: hidden;
