@@ -23,6 +23,45 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.addPadTB-3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.addMarginL-3{
+    margin-left: 3%;
+}
+.addMarginR-3{
+    margin-right: 3%;
+}
+.addMarginT-3{
+    margin-top: 3%;
+}
+.addMarginB-3{
+    margin-bottom: 3%;
+}
+.addPadTB-5{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.addMarginL-5{
+    margin-left: 5%;
+}
+.addMarginR-5{
+    margin-right: 5%;
+}
+.addMarginT-5{
+    margin-top: 5%;
+}
+.addMarginB-5{
+    margin-bottom: 5%;
+}
+
+.colorcube{
+    display: inline-block;
+    width: 5px;
+    height: 24px;
+    background-color: #0068B7;
+}
 
 /* index css */
 .introduction h2.companyTitle,
