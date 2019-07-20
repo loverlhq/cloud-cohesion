@@ -23,10 +23,16 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+/* padding */
 .addPadTB-3{
     padding-top: 3%;
     padding-bottom: 3%;
 }
+.addPadTB-5{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/* margin */
 .addMarginL-3{
     margin-left: 3%;
 }
@@ -38,10 +44,6 @@
 }
 .addMarginB-3{
     margin-bottom: 3%;
-}
-.addPadTB-5{
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 .addMarginL-5{
     margin-left: 5%;
@@ -55,12 +57,56 @@
 .addMarginB-5{
     margin-bottom: 5%;
 }
+.addMarginL-10{
+    margin-left: 10%;
+}
+.addMarginR-10{
+    margin-right: 10%;
+}
+.addMarginT-10{
+    margin-top: 10%;
+}
+.addMarginB-10{
+    margin-bottom: 10%;
+}
+/* font */
+.fontB{
+    font-weight: bolder;
+}
+.fontS-20{
+    font-size: 20px;
+    line-height: 20px;
+}
+.fontS-18{
+    font-size: 18px;
+    line-height: 18px;
+}
+.fontS-16{
+    font-size: 16px;
+    line-height: 16px;
+}
+.fontS-14{
+    font-size: 14px;
+    line-height: 14px;
+}
+.fontS-12{
+    font-size: 12px;
+    line-height: 12px;
+}
 
-.colorcube{
+.colorcube::before{
     display: inline-block;
+    position: relative;
+    top: 5px;
+    content: ' ';
     width: 5px;
-    height: 24px;
-    background-color: #0068B7;
+    height: 20px;
+    background: #0068B7;
+    margin-right: 15px;
+}
+
+.borderRWhite{
+    border-right: 10px solid white;
 }
 
 /* index css */
@@ -69,10 +115,6 @@
     color: #1A7BBF;
 }
 
-div.imgBox {
-    margin-top: 6%;
-    margin-bottom: 6%;
-}
 
 div.imgBox div h3 {
     font-weight: bolder;
@@ -88,6 +130,22 @@ div.imgBox div h3 {
     color: white;
     font-weight: bold;
     line-height: 2em;
+}
+
+.introText{
+    height: 2em;
+    line-height: 2em;
+}
+
+.moreNews{
+    height: 2em;
+    line-height: 2em;
+    border: 1px solid #0B0306;
+}
+.moreNews:hover{
+    border: none;
+    color: white;
+    background: #316DB6;
 }
 
 /* Company websit */
@@ -459,5 +517,11 @@ div.cooperation>.investmentImgBox {
     .contact{
         font-size: 16px;
         text-align: center;
+    }
+    .borderRWhite{
+        border-right: none;
+    }
+    .moreNews{
+        border: none;
     }
 }

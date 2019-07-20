@@ -17,10 +17,10 @@
     padding: 0;
 }
 
-/* a, */
-a:hover{
+/* a */
+/* a:hover{
     color: white;
-}
+} */
 
 .container-fluid,
 ul {
@@ -29,6 +29,9 @@ ul {
 
 ul li {
     list-style: none;
+}
+
+ul.text-center li{
     text-align: center;
 }
 
@@ -195,8 +198,20 @@ h1.slogan,
     background-image: url(../images/introduction/aboutJumbo.jpg);
 }
 
-.logo{
-    padding: 0 25%;
+.newsContectBox,
+.newsText,
+.newsList{
+    height: 360px;
+}
+.newsImg{
+    height: 360px;
+    overflow: hidden;
+}
+.newsImg img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .text_box > *{
@@ -280,8 +295,9 @@ h1.slogan,
         font-size: 30px ;
     }
 
-    .imgBox>div>img {
-        margin-left: 16px;
+    .imgBox>div {
+        padding: 0;
+        border: 1px solid white;
     }
     .advantage.support{
         padding: 0;
@@ -297,6 +313,11 @@ h1.slogan,
     }
     .system_text>h2{
         font-size: 26px;
+    }
+    .newsContectBox,
+    .newsText,
+    .newsList{
+        height: auto;
     }
 
     /* change img url */
